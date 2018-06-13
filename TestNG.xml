@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NewToursTesting" verbose="1">
+	<test name="Regression suite 1">
+		<classes>
+			<class name="com.Test_Scripts.FlightTest" />
+
+			<class name="com.Test_Scripts.HotelTest" />
+
+
+
+			<class name="com.Test_Scripts.SignOnTest" />
+		</classes>
+	</test>
+</suite>

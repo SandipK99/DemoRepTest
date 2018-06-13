@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewToursTesting]">
+  <test thread-count="5" name="Regression suite 1(failed)">
+    <classes>
+      <class name="com.Test_Scripts.SignOnTest">
+        <methods>
+          <include name="userLoginValidation"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Test_Scripts.SignOnTest -->
+      <class name="com.Test_Scripts.HotelTest">
+        <methods>
+          <include name="hotelClickCheck"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Test_Scripts.HotelTest -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [NewToursTesting] -->

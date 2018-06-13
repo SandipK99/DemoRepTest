@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NewToursTesting" duration-ms="48953" started-at="2018-06-11T10:52:11Z" finished-at="2018-06-11T10:53:00Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="48953" started-at="2018-06-11T10:52:11Z" finished-at="2018-06-11T10:53:00Z">
+      <class name="com.Test_Scripts.SignOnTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Test_Scripts.SignOnTest@5034c75a]" name="beforeMethod" is-config="true" duration-ms="23444" started-at="2018-06-11T10:52:29Z" finished-at="2018-06-11T10:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="userLoginValidation()[pri:0, instance:com.Test_Scripts.SignOnTest@5034c75a]" name="userLoginValidation" duration-ms="5454" started-at="2018-06-11T10:52:52Z" finished-at="2018-06-11T10:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginValidation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Test_Scripts.SignOnTest@5034c75a]" name="afterMethod" is-config="true" duration-ms="1730" started-at="2018-06-11T10:52:58Z" finished-at="2018-06-11T10:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.Test_Scripts.SignOnTest -->
+      <class name="com.Test_Scripts.HotelTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Test_Scripts.HotelTest@51efea79]" name="beforeMethod" is-config="true" duration-ms="14072" started-at="2018-06-11T10:52:11Z" finished-at="2018-06-11T10:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="hotelClickCheck()[pri:0, instance:com.Test_Scripts.HotelTest@51efea79]" name="hotelClickCheck" duration-ms="2337" started-at="2018-06-11T10:52:25Z" finished-at="2018-06-11T10:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelClickCheck -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Test_Scripts.HotelTest@51efea79]" name="afterMethod" is-config="true" duration-ms="1880" started-at="2018-06-11T10:52:27Z" finished-at="2018-06-11T10:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.Test_Scripts.HotelTest -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- NewToursTesting -->
+</testng-results>
