@@ -3,20 +3,13 @@
 <suite name="Failed suite [NewToursTesting]">
   <test thread-count="5" name="Regression suite 1(failed)">
     <classes>
-      <class name="com.Test_Scripts.SignOnTest">
+      <class name="com.Test_Scripts.FlightTest">
         <methods>
-          <include name="userLoginValidation"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="flightLinkCheck"/>
         </methods>
-      </class> <!-- com.Test_Scripts.SignOnTest -->
-      <class name="com.Test_Scripts.HotelTest">
-        <methods>
-          <include name="hotelClickCheck"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.Test_Scripts.HotelTest -->
+      </class> <!-- com.Test_Scripts.FlightTest -->
     </classes>
   </test> <!-- Regression suite 1(failed) -->
 </suite> <!-- Failed suite [NewToursTesting] -->

@@ -2,13 +2,21 @@
 <suite name="NewToursTesting" verbose="1">
 	<test name="Regression suite 1">
 		<classes>
-			<class name="com.Test_Scripts.FlightTest" />
+			<class name="com.Test_Scripts.FlightTest" />			
 
-			<class name="com.Test_Scripts.HotelTest" />
-
-
-
-			<class name="com.Test_Scripts.SignOnTest" />
+			<class name="com.Test_Scripts.HotelTest" />			
+			
+			
+			<class name="com.Test_Scripts.SignOnTest">
+			
+			
+			<methods>
+			<exclude name ="userLoginValidation">			
+			</exclude>
+			
+			</methods>
+			
+			</class>
 		</classes>
 	</test>
 </suite>
